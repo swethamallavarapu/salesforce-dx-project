@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mta>
+    <ID>user-opportunity-stats</ID>
+    <version>1.0.0</version>
+    <description>Batch and schedule Apex classes for daily user opportunity stats</description>
+    <modules>
+        <module>
+            <name>UserOpportunityStatsBatch</name>
+            <type>apex-class</type>
+            <path>force-app/main/default/classes/UserOpportunityStatsBatch.cls</path>
+        </module>
+        <module>
+            <name>UserOpportunityStatsScheduler</name>
+            <type>apex-class</type>
+            <path>force-app/main/default/classes/UserOpportunityStatsScheduler.cls</path>
+        </module>
+    </modules>
+</mta>

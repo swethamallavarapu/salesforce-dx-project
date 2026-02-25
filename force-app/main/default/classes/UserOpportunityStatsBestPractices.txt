@@ -1,0 +1,11 @@
+// Best practices:
+// - Use Database.Stateful if you need to aggregate data across batches
+// - Use custom settings/metadata for stage names if needed
+// - Add error handling and logging in finish method
+// - Use meaningful variable names and comments
+// - Keep batch size reasonable (e.g., 200)
+// - Test with unit tests
+// - Schedule jobs with clear names
+// - Avoid hardcoding stage names if possible
+// - Use field-level security checks if running in user context
+// - Document the batch and scheduler classes
